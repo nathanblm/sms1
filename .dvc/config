@@ -1,6 +1,3 @@
 [core]
     analytics = false
     autostage = true
-    remote = mylocalremote
-['remote "mylocalremote"']
-    url = /home/nathan/Robotics/CS4295/INCLASS/mylocalremote
