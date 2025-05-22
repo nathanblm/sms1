@@ -34,14 +34,14 @@ stages:
     deps:
     - path: src/text_classification.py
       hash: md5
-      md5: c28e1d8bd1325646574419e858e85b85
-      size: 3373
+      md5: 5744bb7e71967a3a779f7b3d9f10290b
+      size: 3372
     outs:
     - path: acc.json
       hash: md5
-      md5: cedcf1d0511e34674237363169c66c4e
-      size: 247
+      md5: c9bf7ca9914c278b81ea7c15c2394e77
+      size: 233
     - path: output/model.joblib
       hash: md5
-      md5: 3857d34709f4e6621c883cc7a5121858
-      size: 15161
+      md5: 234262d9afc38c2f282ed89a9ad6b720
+      size: 16601
