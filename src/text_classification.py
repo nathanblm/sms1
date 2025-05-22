@@ -14,6 +14,7 @@ from joblib import dump, load
 import matplotlib
 import matplotlib.pyplot as plt
 from text_preprocessing import _load_data
+import json
 
 #matplotlib.use('TkAgg')
 pd.set_option('display.max_colwidth', None)
@@ -77,6 +78,8 @@ def main():
 
     print('\n############### Accuracy Scores ###############')
     accuracy = pd.DataFrame.from_dict(pred_scores, orient='index', columns=['Accuracy Rate'])
+    out = open('acc.json', 'w')
+    json.dump(accuracy.to_dict(), out)
     print('\n')
     print(accuracy)
     print('\n')

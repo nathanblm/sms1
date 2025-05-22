@@ -9,3 +9,4 @@ venv
 output
 /smsspamcollection
 *.vscode/
+/acc.json
